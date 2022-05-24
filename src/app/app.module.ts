@@ -13,9 +13,10 @@ import {HttpClientModule} from "@angular/common/http";
 
 
 const routes : Routes = [
+  {path : "", component : AccueilComponent},
   {path : "accueil", component : AccueilComponent},
   {path : "add", component : AjoutAnnnonceComponent},
-  {path : "detail", component : DetailComponent}
+  {path : "detail/:id", component : DetailComponent}
 ]
 @NgModule({
   declarations: [

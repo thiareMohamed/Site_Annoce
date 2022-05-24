@@ -1,19 +1,21 @@
 <section class="">
     <div class="div-image">
-      <img src="./assets/Apple-iPhone-X-232.png" alt="produit"/>
+      <img src="{{donnee['image']}}" alt="produit"/>
     </div>
-    <div class="contenu">
-      <h3> Apple IPhone X - 4G LTE - 5.8 Pouces - 3Go Ram - 64Go Rom - 12 Mpx - Noir</h3>
+    <div class="contenu" *ngIf="donnee">
+      <h3>
+        {{donnee["titre"]}}
+      </h3>
       <p>
-        Note: In JSX, JavaScript expressions are written inside curly braces,
-        and since JavaScript objects also use curly braces,
-        the styling in the example above is written inside two sets of curly braces.
+        {{donnee["description"]}}
       </p>
       <hr/>
-      <h4>200000 FCFA</h4>
+      <h4>
+        {{donnee["prix"]}} FCFA
+      </h4>
       <div>
         <button>
-          <a href="https://wa.me"
+          <a  href="https://wa.me/{{donnee['telephone']}}?text={{message}}"
              target="_blank"
              rel="noopener noreferrer">
           Contactez-nous

@@ -14,7 +14,7 @@
         <option value="2">Habillement</option>
       </select>
       <textarea placeholder="description" formControlName="description"></textarea>
-      <button (click)="showForm()">Submit</button>
+      <button [disabled]="userForm.invalid" (click)="showForm()">Submit</button>
     </form>
   </div>
 </section>
