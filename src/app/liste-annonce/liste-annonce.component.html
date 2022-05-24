@@ -1,0 +1,23 @@
+<section class="margin-vertical">
+  <h1 class="h1-titre">
+    Nos Annonce
+  </h1>
+  <div class="liste">
+    <div class="carte" *ngFor="let donnee of donnees">
+      <img src='{{donnee["image"]}}' alt="Produit"/>
+      <div class="corps-carte">
+        <p>
+          {{donnee["titre"]}}
+        </p>
+        <div class="pied-carte">
+          <h3>
+            {{donnee["prix"]}} FCFA
+          </h3>
+          <button>
+            <a routerLink='/detail/{{donnee["id"]}}'>Commander</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
