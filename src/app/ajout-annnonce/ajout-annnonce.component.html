@@ -1,0 +1,21 @@
+<section class="margin-vertical">
+  <h1 class="h1-titre">
+    Formulaire d'ajout produit
+  </h1>
+  <div>
+    <img src ='./assets/relax.png' alt='img'/>
+    <form [formGroup]="userForm">
+      <input type="text" placeholder="Titre" formControlName="titre"/>
+      <input type="text" placeholder="Prix" formControlName="prix"/>
+      <input type="text" placeholder="Image" formControlName="image"/>
+      <input type="tel" placeholder="Numéro annonceur" formControlName="telephone"/>
+      <select formControlName='categorie_id'>
+        <option value="1">Electronique</option>
+        <option value="2">Habillement</option>
+      </select>
+      <textarea placeholder="description" formControlName="description"></textarea>
+      <button (click)="showForm()">Submit</button>
+    </form>
+  </div>
+</section>
+<app-footer></app-footer>
