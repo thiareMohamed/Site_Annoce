@@ -1,3 +1,15 @@
+
+## Site_Annoce
+![projet](https://user-images.githubusercontent.com/92308305/170032900-318295cf-382e-46cc-b37c-11719c86a7c6.png)
+
+# Dans ce repository nous avons une application de site d'annonce en utilisant Angular
+
+
+![image](https://user-images.githubusercontent.com/92308305/170032484-5ee20ff8-938f-4e81-a2a9-1da5791d81b3.png)
+
+
+![image](https://user-images.githubusercontent.com/92308305/170031050-0a2b83e5-e715-4726-bdab-2cdb2408a209.png)
+
 # AnnonceApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.6.
