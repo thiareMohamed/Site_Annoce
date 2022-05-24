@@ -1,0 +1,44 @@
+h1{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+p{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+button{
+  background: #31D0C4;
+  box-shadow: -10px 0px 20px rgba(78, 78, 78, 0.25);
+  border-radius: 6px;
+  padding: 1rem 3rem;
+  border: none;
+  width: 60%;
+}
+a{
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+div{
+  padding: 8rem 0rem;
+    display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+section{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+img{
+  width: 600px;
+  height: 400px;
+}
